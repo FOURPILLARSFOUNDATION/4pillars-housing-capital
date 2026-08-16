@@ -1,0 +1,42 @@
+name: Housing Capital policy proposal
+description: Submit a bounded, evidence-backed housing-capital policy question or model.
+title: "[Proposal]: "
+body:
+  - type: markdown
+    attributes:
+      value: "Use this form for a focused, reviewable proposal. Do not include personal financial information or individualized investment requests."
+  - type: input
+    id: jurisdiction
+    attributes:
+      label: Jurisdiction
+      placeholder: "Example: California statewide or Los Angeles County"
+    validations:
+      required: true
+  - type: textarea
+    id: problem
+    attributes:
+      label: Problem and affected groups
+      placeholder: "Describe the problem, who bears it, and the evidence that it exists."
+    validations:
+      required: true
+  - type: textarea
+    id: mechanism
+    attributes:
+      label: Proposed mechanism and safeguards
+      placeholder: "What would change? Include eligibility, consumer protections, oversight, and a review date."
+    validations:
+      required: true
+  - type: textarea
+    id: evidence
+    attributes:
+      label: Sources and assumptions
+      placeholder: "Link primary sources, data, or research. Label assumptions."
+    validations:
+      required: true
+  - type: textarea
+    id: risks
+    attributes:
+      label: Risks, tradeoffs, and conflicts
+      placeholder: "Who could be harmed or excluded? Disclose any material conflict."
+    validations:
+      required: true
